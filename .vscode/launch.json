@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "dart.flutterSdkPaths": [
+        "/Users/usr/fvm/versions"
+    ],
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    },
+    "configurations": [
+        {
+            "name": "mico_learn",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": [
+                "--dart-define",
+                "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2cnFjbnFxZ3VhcWNmcW9ueW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTMxMDQ2MzAsImV4cCI6MjAyODY4MDYzMH0.oeNQLyPx_LXpcE7S7KTpYwwg5ANOGHxrpAAtJf1WQSg",
+                "--dart-define",
+                "SUPABASE_URL=https://rvrqcnqqguaqcfqonynd.supabase.co",
+                "--dart-define",
+                "ANDROID_CLIENT_ID=928055950501-utmogo3kljtde7hnt14n97usdmpkugah.apps.googleusercontent.com",
+                "--dart-define",
+                "IOS_CLIENT_ID=928055950501-oh5egcg1rcp73mlvec716evv8ls3ns4c.apps.googleusercontent.com",
+                "--dart-define",
+                "WEB_SERVER_CLIENT_ID=928055950501-bpsgl7re66g2aito8bsblf8aihcprvfa.apps.googleusercontent.com"
+            ]
+        },
+        {
+            "name": "mico_learn (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "toolArgs": [
+                "--dart-define",
+                "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2cnFjbnFxZ3VhcWNmcW9ueW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTMxMDQ2MzAsImV4cCI6MjAyODY4MDYzMH0.oeNQLyPx_LXpcE7S7KTpYwwg5ANOGHxrpAAtJf1WQSg",
+                "--dart-define",
+                "SUPABASE_URL=https://rvrqcnqqguaqcfqonynd.supabase.co",
+                "--dart-define",
+                "ANDROID_CLIENT_ID=928055950501-utmogo3kljtde7hnt14n97usdmpkugah.apps.googleusercontent.com",
+                "--dart-define",
+                "IOS_CLIENT_ID=928055950501-oh5egcg1rcp73mlvec716evv8ls3ns4c.apps.googleusercontent.com",
+                "--dart-define",
+                "WEB_SERVER_CLIENT_ID=928055950501-bpsgl7re66g2aito8bsblf8aihcprvfa.apps.googleusercontent.com"
+            ]
+        },
+        {
+            "name": "mico_learn (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "toolArgs": [
+                "--dart-define",
+                "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2cnFjbnFxZ3VhcWNmcW9ueW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTMxMDQ2MzAsImV4cCI6MjAyODY4MDYzMH0.oeNQLyPx_LXpcE7S7KTpYwwg5ANOGHxrpAAtJf1WQSg",
+                "--dart-define",
+                "SUPABASE_URL=https://rvrqcnqqguaqcfqonynd.supabase.co",
+                "--dart-define",
+                "ANDROID_CLIENT_ID=928055950501-utmogo3kljtde7hnt14n97usdmpkugah.apps.googleusercontent.com",
+                "--dart-define",
+                "IOS_CLIENT_ID=928055950501-oh5egcg1rcp73mlvec716evv8ls3ns4c.apps.googleusercontent.com",
+                "--dart-define",
+                "WEB_SERVER_CLIENT_ID=928055950501-bpsgl7re66g2aito8bsblf8aihcprvfa.apps.googleusercontent.com"
+            ]
+        }
+    ]
+}
